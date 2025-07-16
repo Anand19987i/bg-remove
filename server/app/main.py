@@ -11,7 +11,7 @@ app = FastAPI()
 # Enable CORS (for frontend dev)
 app.add_middleware(
     CORSMiddleware,
-    allow_origins=["http://localhost:3000"], 
+    allow_origins=["http://localhost:3000", "https://bg-remove-ruddy.vercel.app/"], 
     allow_methods=["*"],
     allow_headers=["*"],
 )

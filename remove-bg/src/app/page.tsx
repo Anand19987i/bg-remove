@@ -29,7 +29,7 @@ export default function Home() {
     formData.append("file", file);
 
     try {
-      const response = await fetch("http://localhost:8000/remove-bg-preview/", {
+      const response = await fetch("https://bg-remove-1-yyhp.onrender.com/remove-bg-preview/", {
         method: "POST",
         body: formData,
       });
