@@ -1,0 +1,9 @@
+# *
+User-agent: *
+Allow: /
+
+# Host
+Host: https://bg-remover.vercel.app
+
+# Sitemaps
+Sitemap: https://bg-remover.vercel.app/sitemap.xml
