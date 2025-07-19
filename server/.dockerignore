@@ -6,7 +6,3 @@ env/
 venv/
 static/  
 
-
-
-docker build -t rembg-api .
-docker run -d -p 8000:8000 --name rembg-container rembg-api

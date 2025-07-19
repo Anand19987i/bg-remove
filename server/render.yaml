@@ -5,3 +5,6 @@ services:
     image: anandxtechon/rembg-api:latest
     plan: free
     autoDeploy: false
+    envVars:
+      - key: PORT
+        value: 8000
