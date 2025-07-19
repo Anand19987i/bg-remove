@@ -1,0 +1,7 @@
+services:
+  - type: web
+    name: rembg-api
+    env: docker
+    image: anandxtechon/rembg-api:latest
+    plan: free
+    autoDeploy: false
